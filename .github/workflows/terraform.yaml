@@ -1,4 +1,4 @@
-name:"Vprofile IAC"
+name: "Vprofile IAC"
 
 on:
   push:
@@ -12,6 +12,7 @@ on:
       - main
     paths:
       - terraform/**
+
 
 env:
  # Credentials for deployment to AWS
